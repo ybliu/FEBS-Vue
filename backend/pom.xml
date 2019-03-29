@@ -60,7 +60,7 @@
         <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
-            <version>2.3.28</version>
+            <version>2.3.28</version><!--$NO-MVN-MAN-VER$-->
         </dependency>
         <!-- sql 打印 -->
         <dependency>
@@ -138,6 +138,13 @@
             <artifactId>ExcelKit</artifactId>
             <version>2.0.7</version>
         </dependency>
+        <dependency>  
+          <groupId>com.sun</groupId>  
+          <artifactId>tools</artifactId>  
+          <version>1.8.0</version>  
+          <scope>system</scope>         
+          <systemPath>C:/Program Files/Java/jdk1.8.0_201/lib/tools.jar</systemPath>  
+     </dependency> 
     </dependencies>
 
     <repositories>
